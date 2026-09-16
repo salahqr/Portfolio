@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <rect width="256" height="256" rx="56" fill="#0f172a"/>
+  <!-- Top Server Unit -->
+  <rect x="48" y="58" width="160" height="40" rx="10" fill="#1e293b" stroke="#6366f1" stroke-width="4.5"/>
+  <circle cx="70" cy="78" r="4.5" fill="#10b981"/>
+  <circle cx="84" cy="78" r="4.5" fill="#6366f1"/>
+  <line x1="104" y1="78" x2="162" y2="78" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <rect x="176" y="72" width="20" height="12" rx="3" fill="#312e81" stroke="#818cf8" stroke-width="1.5"/>
+  <!-- Middle Server Unit -->
+  <rect x="48" y="108" width="160" height="40" rx="10" fill="#1e293b" stroke="#6366f1" stroke-width="4.5"/>
+  <circle cx="70" cy="128" r="4.5" fill="#10b981"/>
+  <circle cx="84" cy="128" r="4.5" fill="#818cf8"/>
+  <line x1="104" y1="128" x2="148" y2="128" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <rect x="162" y="122" width="34" height="12" rx="3" fill="#312e81" stroke="#818cf8" stroke-width="1.5"/>
+  <!-- Bottom Server Unit -->
+  <rect x="48" y="158" width="160" height="40" rx="10" fill="#1e293b" stroke="#6366f1" stroke-width="4.5"/>
+  <circle cx="70" cy="178" r="4.5" fill="#10b981"/>
+  <circle cx="84" cy="178" r="4.5" fill="#a5b4fc"/>
+  <line x1="104" y1="178" x2="162" y2="178" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <rect x="176" y="172" width="20" height="12" rx="3" fill="#312e81" stroke="#818cf8" stroke-width="1.5"/>
+  <!-- Vertical Interconnects -->
+  <line x1="60" y1="98" x2="60" y2="108" stroke="#818cf8" stroke-width="3.5"/>
+  <line x1="60" y1="148" x2="60" y2="158" stroke="#818cf8" stroke-width="3.5"/>
+  <line x1="196" y1="98" x2="196" y2="108" stroke="#818cf8" stroke-width="3.5"/>
+  <line x1="196" y1="148" x2="196" y2="158" stroke="#818cf8" stroke-width="3.5"/>
+  <!-- API Terminal Prompt -->
+  <rect x="108" y="136" width="76" height="48" rx="8" fill="#0f172a" stroke="#a5b4fc" stroke-width="2.5"/>
+  <path d="M120 152L128 160L120 168" stroke="#818cf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="134" y1="168" x2="148" y2="168" stroke="#c7d2fe" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="196" cy="44" r="5" fill="#818cf8"/>
+</svg>

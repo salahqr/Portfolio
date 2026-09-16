@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salah Qaraeen</title>
+  <style>
+    :root{
+        --bg: #10141c;
+        --bg-raised: #161b25;
+        --text: #eef1f5;
+        --muted: #8b93a3;
+        --blue: #2f6fed;
+        --red: #e0483e;
+        --green: #2fae6a;
+        --line: rgba(255,255,255,0.08);
+    }
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        font-family: 'Inter', sans-serif;
+        background-color: var(--bg-raised);
+        color: var(--text);
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .container> button{
+        width: 32%;
+        height: 60px;
+        transform: skew(-20deg);
+        font-weight: 600;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px black solid;
+        border-radius: 2px;
+        cursor: pointer;
+        opacity: 0.85;
+        transition: width 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease, transform 0.3s ease;
+    }
+
+    .container> button:hover{
+        filter: brightness(1.08);
+        transform: skew(-20deg) translateY(-2px);
+    }
+
+
+    .one {background-color: var(--red);}
+    .two {background-color: var(--blue);}
+    .three{background-color: var(--green);}
+
+    .rem {
+        width: 75px !important;
+        padding: 10px !important;
+        opacity: 0.55;
+        filter: brightness(0.85);
+    }
+
+    .cur {
+        width: 80% !important;
+        box-shadow: 0 8px 20px rgba(120, 112, 112, 0.4);
+        font-size: 16px;
+        opacity: 1;
+        transform: skew(-20deg) translateY(-3px);
+        z-index: 2;
+    }
+
+    .hint{
+        text-align: center;
+        margin-top: 20px;
+        color: var(--muted);
+    }
+
+    
+</style>
+</head>
+<body>
+
+    <p class="hint" id="categoryLabel">Click a category to see projects</p>
+
+    <div class="container" role="group" aria-labelledby="categoryLabel">
+        <button class="one">Frontend</button>
+        <button class="two">Backend</button>
+        <button class="three">Full stack</button>
+    </div>
+
+    <div id="projectDisplay"></div>
+
+    <script>
+        
+    </script>
+</body>
+</html>

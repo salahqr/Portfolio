@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Git Brand Rhombus Background with rounded corners -->
+  <rect x="23.43" y="23.43" width="209.14" height="209.14" rx="28" transform="rotate(45 128 128)" fill="#F05032"/>
+  <!-- Branching paths and nodes -->
+  <g fill="#FFFFFF" stroke="#FFFFFF">
+    <!-- Branch Connection Path -->
+    <path d="M128 66.5v62.5m0 0l29.5 29.5" fill="none" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M98.5 96l29.5 29.5" fill="none" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Nodes -->
+    <circle cx="128" cy="66.5" r="17" stroke-width="0"/>
+    <circle cx="98.5" cy="96" r="17" stroke-width="0"/>
+    <circle cx="157.5" cy="158" r="17" stroke-width="0"/>
+  </g>
+</svg>
