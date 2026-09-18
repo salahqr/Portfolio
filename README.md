@@ -33,12 +33,6 @@ Open `src/index.html` with VS Code's **Live Server** extension (right-click → 
 
 Don't open the file directly by double-clicking it — the resume PDF won't load under `file://` due to browser security restrictions.
 
-## TODO
-
-- [ ] Add project cards content
-- [ ] Wire up the contact form
-- [ ] Add real LinkedIn link
-- [ ] Make the rest of the site more responsive (nav, skills grid, project section) — resume modal is already responsive
 
 ## Contact
 
