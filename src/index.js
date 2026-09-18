@@ -25,7 +25,7 @@ const content = {
       <div class="card blue">
         <h3>Frontend Mentor Solutions</h3>
         <p>Ongoing set of Frontend Mentor challenges — layout and responsive-design practice, one folder per challenge.</p>
-        <a href="https://github.com/salahqr/frontend-mentor-challenges" target="_blank">View code →</a>
+        <a href="https://github.com/salahqr/frontend-mentor-challenges" target="_blank">View project →</a>
       </div>
     </div>
   </div>
@@ -38,18 +38,18 @@ const content = {
       <div class="card red">
         <h3>Real-Time Distributed Analytics Pipeline</h3>
         <p>Kafka-based event pipeline processing 10,000+ events/min into ClickHouse, with Spring Boot APIs averaging under 120ms response time.</p>
-        <a href="https://github.com/salahqr/Real-Time-Distributed-Analytics-Dashboard-Project" target="_blank">View code →</a>
+        <a href="https://github.com/salahqr/Real-Time-Distributed-Analytics-Dashboard-Project" target="_blank">View project →</a>
       </div>
 
       <div class="card red">
         <h3>Python Code Security Analyzer</h3>
         <p>CLI static analysis tool that flags SQL injection, XSS risks, and hardcoded secrets, with structured JSON output.</p>
-        <a href="https://github.com/salahqr/Python-Code-Security-Analyzer" target="_blank">View code →</a>
+        <a href="https://github.com/salahqr/Python-Code-Security-Analyzer" target="_blank">View project →</a>
       </div>
            <div class="card red">
         <h3>E-commerce Backend API</h3>
         <p>Express + TypeScript API with 40+ REST endpoints, JWT auth with RBAC, Redis caching, and Stripe payments.</p>
-        <a href="https://github.com/salahqr/ecommerce-express-api" target="_blank">View code →</a>
+        <a href="https://github.com/salahqr/ecommerce-express-api" target="_blank">View project →</a>
       </div>
     </div>
   </div>
@@ -61,7 +61,7 @@ const content = {
             <div class="card green">
                 <h3>Task Manager</h3>
                 <p>FastAPI backend paired with a React frontend, structured as separate backend/frontend folders.</p>
-                <a href="https://github.com/salahqr/Task-manger" target="_blank">View code →</a>
+                <a href="https://github.com/salahqr/Task-manger" target="_blank">View project →</a>
             </div>
             </div>
         </div>
