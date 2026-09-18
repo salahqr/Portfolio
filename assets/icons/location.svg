@@ -1,0 +1,32 @@
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <!-- Base Container Badge -->
+  <rect width="256" height="256" rx="56" fill="#0f172a"/>
+
+  <!-- Outer Globe Sphere Glow & Boundary -->
+  <circle cx="128" cy="128" r="74" fill="#0b1329" stroke="#3b82f6" stroke-width="4.5"/>
+  <circle cx="128" cy="128" r="72" fill="#172554" fill-opacity="0.25"/>
+
+  <!-- Latitude Lines (Equator & Parallels) -->
+  <ellipse cx="128" cy="128" rx="74" ry="24" stroke="#2563eb" stroke-width="3" stroke-dasharray="6 4" stroke-opacity="0.7"/>
+  <line x1="54" y1="128" x2="202" y2="128" stroke="#38bdf8" stroke-width="3" stroke-opacity="0.9"/>
+  <line x1="68" y1="92" x2="188" y2="92" stroke="#1d4ed8" stroke-width="2.5" stroke-opacity="0.5"/>
+  <line x1="68" y1="164" x2="188" y2="164" stroke="#1d4ed8" stroke-width="2.5" stroke-opacity="0.5"/>
+
+  <!-- Longitude Lines (Central & Meridians) -->
+  <line x1="128" y1="54" x2="128" y2="202" stroke="#38bdf8" stroke-width="3" stroke-opacity="0.8"/>
+  <ellipse cx="128" cy="128" rx="42" ry="74" stroke="#3b82f6" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Continental Landmass Silhouettes (Cyan/Emerald Tech continents) -->
+  <path d="M120 74C132 72 146 76 154 82C150 92 138 96 142 106C146 114 156 116 150 126C144 136 136 132 132 144C128 152 134 162 126 172C122 178 116 166 114 154C112 140 118 134 116 122C114 108 106 98 112 88C114 82 116 76 120 74Z" fill="#06b6d4" fill-opacity="0.25" stroke="#22d3ee" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M82 86C90 92 92 104 88 114C84 122 76 124 74 134C72 142 78 150 76 158C72 154 66 142 66 132C66 118 72 108 74 98C76 90 78 86 82 86Z" fill="#06b6d4" fill-opacity="0.25" stroke="#22d3ee" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Satellite Orbit Arc & Pulse Nodes -->
+  <path d="M42 168C34 130 52 82 92 56C138 28 196 46 218 88" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 5"/>
+  <circle cx="218" cy="88" r="5" fill="#10b981"/>
+  <circle cx="218" cy="88" r="9" stroke="#10b981" stroke-width="1.5" stroke-opacity="0.5"/>
+
+  <!-- Top Accent Light Dot -->
+  <circle cx="196" cy="44" r="5" fill="#10b981"/>
+</svg>

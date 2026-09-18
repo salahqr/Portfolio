@@ -1,0 +1,35 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <!-- Base Container Badge -->
+  <rect width="256" height="256" rx="56" fill="#0f172a"/>
+
+  <!-- Mailbox Post Base / Mounting Bracket -->
+  <rect x="120" y="180" width="16" height="34" rx="4" fill="#1e293b" stroke="#334155" stroke-width="3"/>
+
+  <!-- Mailbox Body Main Chamber -->
+  <path d="M72 176V118C72 90.3858 94.3858 68 122 68H174C179.523 68 184 72.4772 184 78V176H72Z" fill="#1e293b" stroke="#3b82f6" stroke-width="4.5" stroke-linejoin="round"/>
+  
+  <!-- Mailbox Inner Tunnel Depth -->
+  <path d="M172 76H122C98.804 76 80 94.804 80 118V168H172V76Z" fill="#0f172a" fill-opacity="0.8"/>
+
+  <!-- Mail Envelope Popping Out with Cyan Accent -->
+  <g transform="translate(94, 90)">
+    <rect x="0" y="8" width="76" height="52" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="3.5"/>
+    <path d="M2 10L38 38L74 10" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2 58L28 34" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M74 58L48 34" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Mailbox Front Door Open Flap -->
+  <path d="M184 176C198 176 210 182 216 190L184 190" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Outgoing Flag (Raised Upright with Red/Blue Accent) -->
+  <path d="M60 144V88C60 84.6863 62.6863 82 66 82H92V106H72V144" stroke="#ef4444" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="#ef4444" fill-opacity="0.2"/>
+  <rect x="66" y="82" width="26" height="22" rx="3" fill="#ef4444"/>
+
+  <!-- Mailbox Pivot Bolt -->
+  <circle cx="72" cy="144" r="5" fill="#60a5fa"/>
+
+  <!-- Top Accent Light Dot -->
+  <circle cx="196" cy="44" r="5" fill="#38bdf8"/>
+</svg>
